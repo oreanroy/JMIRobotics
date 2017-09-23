@@ -1,0 +1,19 @@
+CACHE MANIFEST
+
+#22-09-2017 v0.1
+
+https://code.jquery.com/jquery-2.1.1.min.js
+https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css
+https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js
+css/style.css
+js/init.js
+https://use.fontawesome.com/b2e9621515.js
+images/favicon/fav-32.png
+images/favicon/fav-144.png
+images/favicon/fav-152.png
+images/back/jmi.jpg
+contact/index.php
+inedx.php
+projects/index.php
+2k18/index.php
+ourteam/index.php

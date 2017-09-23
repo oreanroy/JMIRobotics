@@ -1,0 +1,54 @@
+<?php
+require_once "../plugin/faisal_style.php";
+require_once "../plugin/basic.php";
+echo head("Projects || Robocon JMI");
+echo basic_decp("JMI Robotics");
+echo m_css();
+echo c_head();
+echo basic_nav($dcname,$theme);
+?>
+<main>
+<div class="container">
+    <div class="section">
+      <div class="row">
+      
+      
+        <div class="col s12 m4" style="clear:both;">
+        <span class="green-text" style="font-weight:lighter;font-size:40px; clear:both;">Featured Project</span><br>
+  <span class="green-text" style="font-weight:lighter;font-size:30px;">2017-18</span><div class="card purple" style="width:900px;height700px;"> <div class="card-content white-text"> <span class="card-title">Oopsssssss....</span> <p>Content yet to be updated.</p> </div>  </div>
+        </div>
+        
+      
+      
+        <div class="col s12 m4">
+        <span class="green-text" style="font-weight:lighter;font-size:40px;">Past Projects</span><br>
+        <span class="green-text" style="font-weight:lighter;font-size:30px;">2016-17</span>
+     <div class="card"> <div class="card-image waves-effect waves-block waves-light"> <img class="activator" src="<?php echo host();?>/images/projects/auto_drone.jpg"> </div> <div class="card-content"> <span class="card-title activator grey-text text-darken-4">Autonomous Drone<i class="material-icons right fa fa-chevron-up"></i></span></div> <div class="card-reveal"> <span class="card-title grey-text text-darken-4">Autonomous Drone<i class="material-icons right fa fa-chevron-down"></i></span> <p>Inspired by the <a href="http://www.aerialroboticscompetition.org/phpBB/">International Aerial Robotics Competition</a>, we aim to refit a quadcopter for autonomous flight.</p> </div> </div>
+     
+     
+      <div class="card"> <div class="card-image waves-effect waves-block waves-light"> <img class="activator" src="<?php echo host();?>/images/projects/del_bot.jpg"> </div> <div class="card-content"> <span class="card-title activator grey-text text-darken-4">Delivery Bot<i class="material-icons right fa fa-chevron-up"></i></span></div> <div class="card-reveal"> <span class="card-title grey-text text-darken-4">Delivery Bot<i class="material-icons right fa fa-chevron-down"></i></span> <p>We aim to build a wheeled robot capable of autonomous navigation around the Columbia Campus.</p> </div> </div>
+     
+     
+        </div>
+
+
+<div class="col s12 m4">
+        <span class="green-text" style="font-weight:lighter;font-size:40px;">Past Projects</span><br>
+        <span class="green-text" style="font-weight:lighter;font-size:30px;">2014-16</span>
+     <div class="card"> <div class="card-image waves-effect waves-block waves-light"> <img class="activator responsive" src="<?php echo host();?>/images/projects/basic_quadcopter.jpg"> </div> <div class="card-content"> <span class="card-title activator grey-text text-darken-4">Basic Quadcopter<i class="material-icons right fa fa-chevron-up"></i></span></div> <div class="card-reveal"> <span class="card-title grey-text text-darken-4">Basic Quadcopter<i class="material-icons right fa fa-chevron-down"></i></span> <p>Inspired by the <a href="http://www.aerialroboticscompetition.org/phpBB/">International Aerial Robotics Competition</a>, several members designed and assembled a flyable remote-controlled quadcopter from off-the-shelf parts.</p> </div> </div>
+     
+     
+      <div class="card"> <div class="card-image waves-effect waves-block waves-light"> <img class="activator" src="<?php echo host();?>/images/projects/mech_warfare.jpg"> </div> <div class="card-content"> <span class="card-title activator grey-text text-darken-4">Mech Warfare<i class="material-icons right fa fa-chevron-up"></i></span></div> <div class="card-reveal"> <span class="card-title grey-text text-darken-4">Mech Warfare<i class="material-icons right fa fa-chevron-down"></i></span> <p>In 2014-2015, several members built a remotely piloted walker equipped with a low power BB gun, FPV camera, and scoring system.</p> </div> </div>
+     
+     
+        </div>
+     
+     
+       </div>
+      </div>
+</div>
+</main>
+<?php
+echo basic_foot($dcname,$theme);
+echo m_js();
+?>
